@@ -51,6 +51,7 @@
 #mainForm {
     background-color: #000139;
     padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 #mainForm h2 {
@@ -63,4 +64,56 @@ hr {
     margin-top: 20px;
     border: 2px solid #505dfb;
     width: 70px;
+}
+
+#myForm input {
+    background-color: #01025e;
+    border-color: #01025e;
+    /* color: white; */
+
+}
+
+#myForm textarea {
+    background-color: #01025e;
+    border-color: #01025e;
+}
+
+#btnSend {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #ff8600;
+    border-color: 1px solid #ff8600;
+    color: white;
+    margin-top: 30px;
+    width: 250px;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+
+    color: white !important
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: pink !important
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: pink !important
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: pink !important
+}
+
+#help {
+    float: right;
+    margin-top: -35px;
+    padding-right: 10px;
+    color: #505dfb;
 }
