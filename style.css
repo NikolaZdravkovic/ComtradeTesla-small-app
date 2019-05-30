@@ -1,0 +1,66 @@
+#mainBanner {
+    background-image: url('assets/background.jpg');
+    height: 90vh;
+    width: 100%;
+
+}
+
+.navbar {
+    background-color: transparent !important;
+
+}
+
+#navbarSupportedContent a {
+    color: white;
+}
+
+#mobileImg {
+    height: 110%;
+    width: 140%;
+
+}
+
+.headingText {
+    margin-top: 150px;
+    color: white;
+}
+
+.headingText h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.headingText p {
+    margin-top: 30px;
+}
+
+.headingText p span {
+    font-weight: bold;
+}
+
+#btnPhone {
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #ff8600;
+    border-color: 1px solid #ff8600;
+    color: white;
+    margin-top: 30px;
+}
+
+#mainForm {
+    background-color: #000139;
+    padding-top: 50px;
+}
+
+#mainForm h2 {
+    text-align: center;
+    color: white;
+}
+
+
+hr {
+    margin-top: 20px;
+    border: 2px solid #505dfb;
+    width: 70px;
+}
